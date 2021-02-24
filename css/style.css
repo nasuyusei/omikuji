@@ -9,12 +9,11 @@ h1{
   font-size: 200px,
   color: blue;
 }
-@media (max-width: 1000px) {
-  h1 {
-    color: green;
-  }
-}
 
+input.formbtn{
+width:100px;
+height:100px;
+}
 
 
 a.btn--green {
