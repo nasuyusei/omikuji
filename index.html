@@ -2,18 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>あああおみくじ</title>
+    <title>おみくじ</title>
     <link rel="stylesheet" href="/omikuji/css/style.css">
     <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
-      <h1>いいいああああああああおみくじ</h1>
+      <h1>おみくじを引いてね</h1>
 	    
 	    
 	    
       <p>説明〜</p>
-      <a href="" class="btn btn-c btn--green btn--cubic"><i class="fa fas fa-envelope"></i>おみくじを引く</a>
+      <a href="" class="btn btn-c btn--green btn--cubic">おみくじを引く</a>
       <div class="item">
         <div class="item-box green"></div>
       </div>
@@ -35,7 +35,7 @@
     function initMap() {
       var opts = {
         zoom: 15,
-        center: new google.maps.LatLng(35.1239654, 136.9417741)
+        center: new google.maps.LatLng(35.1239654*rand, 136.9417741*rand)
       };
       var map = new google.maps.Map(document.getElementById("map"), opts);
     }
