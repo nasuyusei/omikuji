@@ -14,13 +14,14 @@ p {
 input.formbtn{
   color: red;
   font-size: 200px;
+  padding: 100px;
   width:1000px;
   height:1000px;
   
 }
 
-.kekka{
-  font-size: 400px,
+kekka{
+  font-size: 400px;
   color: blue;
 }
 
