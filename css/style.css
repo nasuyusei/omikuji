@@ -1,11 +1,13 @@
-body{
+.container{
   background-color: #ffc562;
+  height: 80px;
+  line-height: 80px;
 }
 
 h1{
   color: green;
   font-size: 50px;
-  background-color: #ffc562;
+  background-color: #a0c3f7;
   
 }
 
