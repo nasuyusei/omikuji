@@ -1,3 +1,6 @@
+body{
+  background-color: #ffc562;
+}
 
 h1{
   color: green;
@@ -12,20 +15,23 @@ input.formbtn{
   font-size: 50px;
   background-color: #ffc562;
   flex: auto;
+  text-align: center;
   
 }
 
-
-
-
 h2{
   color: red;
-  font-size: 50px;
+  font-size: 100px;
   left: 100px
   
 }
 
 h3{
+  color: blue;
+  font-size: 50px;
+}
+
+h4{
   color: blue;
   font-size: 50px;
 }
