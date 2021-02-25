@@ -15,6 +15,7 @@
     <form><input type="button" class="formbtn" value="おみくじを引く" onClick="random()"></form>
 	  
     <h2><span id="omikuji">結果</span><h2>
+	    <h3><span id="omikuji">結果</span>のあなた！</h3>
 	  
 
     <script type="text/javascript">
@@ -26,13 +27,12 @@
  	if (rand == 3) msg = "吉";
         if (rand == 4) msg = "凶";
     document.getElementById("omikuji").innerHTML = msg; //おみくじの目の出力
-	    <h3><span id="omikuji">結果</span>のあなた！</h3>
+	    
     }
     </script>
 
 	    
     <div class="container">
-	    <h3><span id="omikuji">結果</span>のあなた！</h3>
             <h3>↓本日のおすすめスポットはここ↓</h3>
     </div>
     <div id="map" style="width:640px; height:400px"></div>
