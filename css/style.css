@@ -2,16 +2,22 @@ title {
   font-size: 200px,
   color: red;
 }
-p {
+h1 {
   color: red;
 }
-.container{
-  font-size: 200px,
-  color: blue;
-}
+
 
 
 input.formbtn{
+  color: red;
+  font-size: 200px;
+  padding: 100px;
+  width:100px;
+  height:1000px;
+  
+}
+
+h2{
   color: red;
   font-size: 200px;
   padding: 100px;
@@ -19,9 +25,3 @@ input.formbtn{
   height:1000px;
   
 }
-
-kekka{
-  font-size: 400px;
-  color: blue;
-}
-
