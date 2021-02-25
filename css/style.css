@@ -1,7 +1,7 @@
 .container{
-  background-color: #ffc562;
-  height: 80px;
-  line-height: 80px;
+  background-color: #a0c3f7;
+  /*height: 80px;
+  line-height: 80px;*/
 }
 
 h1{
@@ -15,8 +15,6 @@ h1{
 input.formbtn{
   color: red;
   font-size: 50px;
-  
-  width:300px;
   background-color: #a0c3f7;
 }
 
