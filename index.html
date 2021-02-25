@@ -14,7 +14,7 @@
     
     <form><input type="button" class="formbtn" value="おみくじを引く" onClick="random()"></form>
 	  
-    <h1>                 <h1><span class="kekka" id="omikuji">結果</span>
+    <h2><span class="kekka" id="omikuji">結果</span><h2>
 	  
 
     <script type="text/javascript">
@@ -27,9 +27,12 @@
         if (rand == 4) msg = "凶";
     document.getElementById("omikuji").innerHTML = msg; //おみくじの目の出力
     }
-	    
     </script>
 
+	    
+    <div class="container">
+    <h1>↓本日のおすすめスポットはここ↓</h1>
+    </div>
     <div id="map" style="width:640px; height:400px"></div>
     <script type="text/javascript">
     function initMap() {
