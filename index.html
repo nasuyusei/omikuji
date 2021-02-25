@@ -13,7 +13,7 @@
     
     <h2><form><input type="button" class="formbtn" value="おみくじを引く" onClick="random()"></form></h2>
 	  
-    <h2><span id="omikuji">結果</span></h2>
+    <h3><span id="omikuji">結果</span></h3>
 	  
 
     <script type="text/javascript">
@@ -24,10 +24,10 @@
 	if (rand == 2) msg = "小吉";
  	if (rand == 3) msg = "吉";
         if (rand == 4) msg = "凶";
-    document.getElementById("omikuji").innerHTML = msg; //おみくじの目の出力
-	    
+    document.getElementById("omikuji").innerHTML = msg; //おみくじの目の出力    
     }
     </script>
+	  
     <ul class="flex-list">
       <li class="li1">item1</li>
       <li class="li2">item2</li>
@@ -35,7 +35,7 @@
       <li class="li4">item4</li>
     </ul>
     <div class="container">
-            <h3>↓本日のおすすめスポットはここ↓</h3>
+            <h4>↓本日のおすすめスポットはここ↓</h4>
     </div>
     <div id="map" style="width:640px; height:400px"></div>
     <script type="text/javascript">
@@ -54,7 +54,7 @@
 	        
 
 	    
-	    <iframe src="https://www.google.com/maps?q=36.6694219,139.4612045"></iframe>
+	    <iframe src="https://www.google.com/maps?q=35,135.4612045"></iframe>
 	    <iframe src="https://maps.google.co.jp/maps?output=embed&q=東京駅"></iframe>
 	  
 	  
