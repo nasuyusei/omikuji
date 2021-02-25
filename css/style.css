@@ -5,7 +5,7 @@
 }
 
 h1{
-  color: green;
+  color: blue;
   font-size: 50px;
   background-color: #a0c3f7;
   
@@ -22,7 +22,7 @@ input.formbtn{
   padding:10px;
   font-family:Arial, sans-serif;
   color:#aaa;
-  border:solid 1px #ccc;
+  border:solid 10px #ccc;
   margin:0 0 20px;
   width:300px;
   
@@ -37,7 +37,7 @@ h2{
 }
 
 h3{
-  color: blue;
+  color: red;
   font-size: 50px;
   background-color: #ffffe0;
 }
