@@ -18,13 +18,20 @@ input.formbtn{
   background-color: #ffc562;
   flex: auto;
   text-align: center;
+  border:0;
+  padding:10px;
+  font-family:Arial, sans-serif;
+  color:#aaa;
+  border:solid 1px #ccc;
+  margin:0 0 20px;
+  width:300px;
   
 }
 
 h2{
   color: red;
   font-size: 100px;
-  left: 100px
+  left: 100px;
   background-color: #a0c3f7;
   
 }
@@ -32,7 +39,7 @@ h2{
 h3{
   color: blue;
   font-size: 50px;
-  background-color: #a0c3f7;
+  background-color: #ffffe0;
 }
 
 h4{
